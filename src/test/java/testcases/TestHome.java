@@ -15,7 +15,7 @@ import io.qameta.allure.SeverityLevel;
 
 public class TestHome extends Base {
 
-	public String path = "../api-hot/src/test/java/com/test/api/datatest/data.xlsx";
+	public String path = "../api-hot/src/test/java/datatest/data.xlsx";
 
 	@DataProvider
 	public String[][] pathHomeCategory() throws InvalidFormatException, IOException {

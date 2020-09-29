@@ -20,7 +20,7 @@ import io.restassured.http.ContentType;
 
 public class TestFollow extends Base {
 
-	public String path = "../api-hot/src/test/java/com/test/api/datatest/data.xlsx";
+	public String path = "../api-hot/src/test/java/datatest/data.xlsx";
 
 	@DataProvider
 	public String[][] userLogin() throws InvalidFormatException, IOException {
