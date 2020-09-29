@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="testcases.TestEditUser"/>
+      <class name="testcases.TestSearch"/>
+      <class name="testcases.TestLike"/>
+      <class name="testcases.TestCompetition"/>
+      <class name="testcases.TestViews"/>
+      <class name="testcases.TestVoteCompetition"/>
+      <class name="testcases.TestComment"/>
+      <class name="testcases.TestHome"/>
+      <class name="testcases.TestFollow"/>
+      <class name="testcases.TestUser"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.TestSearch">
+        <methods>
+          <include name="set"/>
+          <include name="video"/>
+          <include name="user"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestSearch -->
+      <class name="testcases.TestComment">
+        <methods>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestComment -->
+      <class name="testcases.TestLike">
+        <methods>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestLike -->
+      <class name="testcases.TestViews">
+        <methods>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestViews -->
+      <class name="testcases.TestVoteCompetition">
+        <methods>
+          <include name="set"/>
+          <include name="postVoteNullQuota"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestVoteCompetition -->
+      <class name="testcases.TestCompetition">
+        <methods>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestCompetition -->
+      <class name="testcases.TestEditUser">
+        <methods>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestEditUser -->
+      <class name="testcases.TestHome">
+        <methods>
+          <include name="set"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- testcases.TestHome -->
+      <class name="testcases.TestFollow">
+        <methods>
+          <include name="alreadyFollow"/>
+          <include name="followerTokenVisitor"/>
+          <include name="follow"/>
+          <include name="alreadyUnfollow"/>
+          <include name="follower"/>
+          <include name="followWithVisitorToken"/>
+          <include name="followerTokenUser"/>
+          <include name="Unfollow"/>
+          <include name="beforeFollowStatus"/>
+          <include name="unfollowWithoutToken"/>
+          <include name="unfollowWithVisitorToken"/>
+          <include name="afterFollowStatus"/>
+          <include name="followSelf"/>
+          <include name="following"/>
+          <include name="followWithoutToken"/>
+        </methods>
+      </class> <!-- testcases.TestFollow -->
+      <class name="testcases.TestUser">
+        <methods>
+          <include name="otherUserTokenUser"/>
+          <include name="myProfile"/>
+          <include name="otherUserVisitorToken"/>
+        </methods>
+      </class> <!-- testcases.TestUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

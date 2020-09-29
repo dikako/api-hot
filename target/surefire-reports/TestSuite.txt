@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 343.992 s <<< FAILURE! - in TestSuite
+testcases.TestVoteCompetition.postVoteNullQuota  Time elapsed: 20.815 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at testcases.TestVoteCompetition.postVoteNullQuota(TestVoteCompetition.java:122)
+

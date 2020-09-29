@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="343.992" tests="45" errors="0" skipped="20" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\test-web\pwa\api-hot\target\test-classes;D:\test-web\pwa\api-hot\target\classes;C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fransiskus.setiawan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\fransiskus.setiawan\.m2\repository\jaxen\jaxen\1.2.0\jaxen-1.2.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\mail\javax.mail-api\1.5.5\javax.mail-api-1.5.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\twilio\sdk\twilio\7.42.0\twilio-7.42.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\jsonwebtoken\jjwt\0.4\jjwt-0.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.1\jackson-databind-2.9.9.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\xml\bind\jaxb-api\2.2\jaxb-api-2.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\plugins\maven-clean-plugin\3.1.0\maven-clean-plugin-3.1.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.4\plexus-component-annotations-1.5.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure-testng\2.7.0\allure-testng-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.7.0\allure-descriptions-javadoc-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure-java-commons\2.7.0\allure-java-commons-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure2-model-api\1.0.0\allure2-model-api-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0.0\allure2-model-pojo-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0.0\allure2-model-jackson-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin"/>
+    <property name="sun.java.command" value="C:\Users\fransiskus.setiawan\AppData\Local\Temp\surefire4314891769731657278\surefirebooter2007114463929630510.jar C:\Users\fransiskus.setiawan\AppData\Local\Temp\surefire4314891769731657278 2020-09-29T15-41-36_546-jvmRun1 surefire5839446164616944997tmp surefire_08780563053931917887tmp"/>
+    <property name="surefire.test.class.path" value="D:\test-web\pwa\api-hot\target\test-classes;D:\test-web\pwa\api-hot\target\classes;C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\fransiskus.setiawan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\testng\testng\6.9.10\testng-6.9.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\fransiskus.setiawan\.m2\repository\jaxen\jaxen\1.2.0\jaxen-1.2.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\mail\javax.mail-api\1.5.5\javax.mail-api-1.5.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\github\bonigarcia\webdrivermanager\4.0.0\webdrivermanager-4.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0\httpclient5-5.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0\httpcore5-5.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0\httpcore5-h2-5.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\twilio\sdk\twilio\7.42.0\twilio-7.42.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\joda-time\joda-time\2.5\joda-time-2.5.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\jsonwebtoken\jjwt\0.4\jjwt-0.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.1\jackson-databind-2.9.9.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\xml\bind\jaxb-api\2.2\jaxb-api-2.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\plugins\maven-clean-plugin\3.1.0\maven-clean-plugin-3.1.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.4\plexus-component-annotations-1.5.4.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure-testng\2.7.0\allure-testng-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.7.0\allure-descriptions-javadoc-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure-java-commons\2.7.0\allure-java-commons-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure2-model-api\1.0.0\allure2-model-api-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0.0\allure2-model-pojo-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\fransiskus.setiawan\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0.0\allure2-model-jackson-1.0.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\fransiskus.setiawan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\fransiskus.setiawan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\fransiskus.setiawan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_221"/>
+    <property name="basedir" value="D:\test-web\pwa\api-hot"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\fransiskus.setiawan\AppData\Local\Temp\surefire4314891769731657278\surefirebooter2007114463929630510.jar;C:\Users\fransiskus.setiawan\.m2\repository/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_221\lib\resources.jar;C:\Program Files\Java\jre1.8.0_221\lib\rt.jar;C:\Program Files\Java\jre1.8.0_221\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_221\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_221\lib\jce.jar;C:\Program Files\Java\jre1.8.0_221\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_221\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_221\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="fransiskus.setiawan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\fransiskus.setiawan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\FRANSI~1.SET\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="D:\test-web\pwa\api-hot"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_221/bin/server;C:/Program Files/Java/jre1.8.0_221/bin;C:/Program Files/Java/jre1.8.0_221/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\apache-maven-3.6.2\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\nodejs\;C:\Users\fransiskus.setiawan\android-sdks\platform-tools;C:\Go\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files\k6\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby26-x64\bin;C:\Users\fransiskus.setiawan\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\fransiskus.setiawan\scoop\shims;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Python\Python38\;C:\Users\fransiskus.setiawan\AppData\Local\Microsoft\WindowsApps;C:\Users\fransiskus.setiawan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin;;C:\Users\fransiskus.setiawan\go\bin;C:\Users\fransiskus.setiawan\AppData\Roaming\Composer\vendor\bin;C:\Users\fransiskus.setiawan\AppData\Local\Yarn\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_221\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="postComment" classname="testcases.TestEditUser" time="26.775"/>
+  <testcase name="user" classname="testcases.TestSearch" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="userNotFound" classname="testcases.TestSearch" time="4.333"/>
+  <testcase name="video" classname="testcases.TestSearch" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="videoNotFound" classname="testcases.TestSearch" time="3.386"/>
+  <testcase name="like" classname="testcases.TestLike" time="22.31"/>
+  <testcase name="likeAlready" classname="testcases.TestLike" time="19.681"/>
+  <testcase name="unlike" classname="testcases.TestLike" time="18.822"/>
+  <testcase name="unlikeAlready" classname="testcases.TestLike" time="17.979"/>
+  <testcase name="likeWithoutToken" classname="testcases.TestLike" time="14.911"/>
+  <testcase name="likeWithTokenVisitor" classname="testcases.TestLike" time="15.469"/>
+  <testcase name="unlikeWithoutToken" classname="testcases.TestLike" time="12.363"/>
+  <testcase name="unlikeWithTokenVisitor" classname="testcases.TestLike" time="12.97"/>
+  <testcase name="competitionNow" classname="testcases.TestCompetition" time="2.592"/>
+  <testcase name="competitionSoon" classname="testcases.TestCompetition" time="2.592"/>
+  <testcase name="competitionExpired" classname="testcases.TestCompetition" time="2.2"/>
+  <testcase name="viewWithLogin" classname="testcases.TestViews" time="15.325"/>
+  <testcase name="getViewWithLogin" classname="testcases.TestViews" time="17.492"/>
+  <testcase name="getQuota" classname="testcases.TestVoteCompetition" time="14.653"/>
+  <testcase name="postVote" classname="testcases.TestVoteCompetition" time="24.74"/>
+  <testcase name="postVoteLebih" classname="testcases.TestVoteCompetition" time="21.822"/>
+  <testcase name="postVoteNullQuota" classname="testcases.TestVoteCompetition" time="20.815">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <404>.
+
+	at testcases.TestVoteCompetition.postVoteNullQuota(TestVoteCompetition.java:122)
+]]></failure>
+    <system-out><![CDATA[Response Body: [1, 2, 3]
+1
+Response Body: [1, 2, 3]
+1
+Response Body: [1, 2, 3]
+1
+Request method:	POST
+Request URI:	https://rc-api.rctiplus.com/api/v3/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2aWQiOjAsInRva2VuIjoiMGQ2NjhmYjAzYmM2OGI0YiIsInBsIjoiYW5kcm9pZCIsImRldmljZV9pZCI6IjlhMDdmOTg4ZWE1MWE1ZDMifQ.ptvbpBxReSz7qg2xLQ-mOJ6ECt-J9y4A_I3b8y8mTJo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "dikakoko",
+    "device_id": "1234",
+    "platform": "android",
+    "username": "dikakoko04@gmail.com"
+}
+HTTP/1.1 200 OK
+Date: Tue, 29 Sep 2020 08:46:35 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df2d9ef817fc6be87663e728d71d6f3fe1601369194; expires=Thu, 29-Oct-20 08:46:34 GMT; path=/; domain=.rctiplus.com; HttpOnly; SameSite=Lax; Secure
+access-control-allow-methods: GET, POST, OPTIONS, DELETE
+access-control-allow-headers: Accept-Encoding, Accept-Language, Accept, Authorization, Cache-Control, Connection, Content-Language, Content-Type, DNT, Host, If-Modified-Since, Keep-Alive, Origin, Platform, Referer, User-Agent, X-CustomHeader, X-Requested-With
+access-control-allow-origin: *
+CF-Cache-Status: DYNAMIC
+cf-request-id: 057aa3d8bf0000a2fa450a7200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5da46f3acfbaa2fa-HKG
+Content-Encoding: gzip
+
+{
+    "data": {
+        "id": 6211,
+        "nickname": "ddddddddddddddd",
+        "display_name": "dddddddddddddddff",
+        "email": "dikakoko04@gmail.com",
+        "email_verified": "yes",
+        "phone_number": null,
+        "phone_verified": "no",
+        "photo_url": "https://rc-static.rctiplus.id/avatar/6211_cropped2845136147149792017_20200928092041.jpg",
+        "dob": 910137600,
+        "location": null,
+        "gender": "",
+        "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2aWQiOjYyMTEsInRva2VuIjoiMDExOGJmZDk4NDI5YzIzNyIsInBsIjoiYW5kcm9pZCIsImRldmljZV9pZCI6IjEyMzQifQ.Ef2vp6XagJc4gcG1A7VnEHd7MDXteQfmknMUSNIHbro",
+        "interest": [
+            {
+                "id": 37,
+                "name": "Drama Komedi",
+                "image": ""
+            },
+            {
+                "id": 16,
+                "name": "Sitcom",
+                "image": "/files/fta_rcti/Genre/genre_sitkom_min_1.jpg"
+            },
+            {
+                "id": 13,
+                "name": "Animation",
+                "image": "/files/fta_rcti/Genre/genre_animasi_min_1.jpg"
+            }
+        ],
+        "photoURL": "https://rc-static.rctiplus.id/avatar/6211_cropped2845136147149792017_20200928092041.jpg",
+        "username": "dikakoko04@gmail.com"
+    },
+    "meta": {
+        "image_path": "https://rc-static.rctiplus.id/avatar/"
+    },
+    "status": {
+        "code": 0,
+        "message_server": "Success",
+        "message_client": "Success"
+    }
+}
+Request method:	POST
+Request URI:	https://rc-api.rctiplus.com/api/v3/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2aWQiOjAsInRva2VuIjoiMGQ2NjhmYjAzYmM2OGI0YiIsInBsIjoiYW5kcm9pZCIsImRldmljZV9pZCI6IjlhMDdmOTg4ZWE1MWE1ZDMifQ.ptvbpBxReSz7qg2xLQ-mOJ6ECt-J9y4A_I3b8y8mTJo
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "dikakoko",
+    "device_id": "1234",
+    "platform": "android",
+    "username": "dikakoko04@gmail.com"
+}
+Request method:	POST
+Request URI:	https://rc-api.rctiplus.com/ugc-vote/api/v1/vote/competition
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ2aWQiOjYyMTEsInRva2VuIjoiYjNiYzViOWQ3N2QxY2ZkMSIsInBsIjoiYW5kcm9pZCIsImRldmljZV9pZCI6IjEyMzQifQ.QmR-t0E8Lo6wBi-H9sj-rOBJ6QcE7LuY4Iyk8UoD3fE
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "contestant_id": 816364,
+    "competition_id": 13,
+    "vote_number": 1,
+    "video_id": 272
+}
+HTTP/1.1 404 Not Found
+Date: Tue, 29 Sep 2020 08:46:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfacb5d3d4940ae39311122808e5b8f671601369196; expires=Thu, 29-Oct-20 08:46:36 GMT; path=/; domain=.rctiplus.com; HttpOnly; SameSite=Lax; Secure
+Access-Control-Allow-Origin: *
+Vary: Origin
+CF-Cache-Status: DYNAMIC
+cf-request-id: 057aa3def80000d1a7cb284200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5da46f44cbaad1a7-HKG
+Content-Encoding: gzip
+
+{
+    "data": null,
+    "meta": null,
+    "status": {
+        "code": 404,
+        "message_client": "No quota to vote",
+        "message_server": "You don't have any quote to vote"
+    }
+}
+HTTP/1.1 404 Not Found
+Date: Tue, 29 Sep 2020 08:46:36 GMT
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=dfacb5d3d4940ae39311122808e5b8f671601369196; expires=Thu, 29-Oct-20 08:46:36 GMT; path=/; domain=.rctiplus.com; HttpOnly; SameSite=Lax; Secure
+Access-Control-Allow-Origin: *
+Vary: Origin
+CF-Cache-Status: DYNAMIC
+cf-request-id: 057aa3def80000d1a7cb284200000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 5da46f44cbaad1a7-HKG
+Content-Encoding: gzip
+
+{
+    "data": null,
+    "meta": null,
+    "status": {
+        "code": 404,
+        "message_client": "No quota to vote",
+        "message_server": "You don't have any quote to vote"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="postComment" classname="testcases.TestComment" time="13.885"/>
+  <testcase name="getComment" classname="testcases.TestComment" time="14.712"/>
+  <testcase name="getHomeCategory" classname="testcases.TestHome" time="4.3"/>
+  <testcase name="getHomeByCompetition" classname="testcases.TestHome" time="8.488"/>
+  <testcase name="getListCompetition" classname="testcases.TestHome" time="4.689"/>
+  <testcase name="beforeFollowStatus" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="follow" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="afterFollowStatus" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="alreadyFollow" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="following" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="follower" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="followerTokenUser" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="followerTokenVisitor" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="Unfollow" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="alreadyUnfollow" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="followSelf" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="followWithoutToken" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="followWithVisitorToken" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="unfollowWithoutToken" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="unfollowWithVisitorToken" classname="testcases.TestFollow" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="myProfile" classname="testcases.TestUser" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="otherUserVisitorToken" classname="testcases.TestUser" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+  <testcase name="otherUserTokenUser" classname="testcases.TestUser" time="0">
+    <skipped message="java.io.FileNotFoundException: ..\api-hot\src\test\java\com\test\api\datatest\data.xlsx (The system cannot find the path specified)"/>
+  </testcase>
+</testsuite>
