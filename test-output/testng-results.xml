@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="30" passed="30">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="137721" started-at="2020-09-30T06:56:18Z" finished-at="2020-09-30T06:58:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="137721" started-at="2020-09-30T06:56:18Z" finished-at="2020-09-30T06:58:36Z">
+      <class name="testcases.TestFollow">
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="776" started-at="2020-09-30T13:56:19Z" finished-at="2020-09-30T13:56:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="beforeFollowStatus(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestFollow@741b3bc3]" name="beforeFollowStatus" duration-ms="15327" started-at="2020-09-30T13:56:20Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:56:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFollowStatus -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="3" started-at="2020-09-30T13:56:35Z" finished-at="2020-09-30T13:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:56:35Z" finished-at="2020-09-30T13:56:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="beforeFollowStatus(java.lang.String, java.lang.String)[pri:0, instance:testcases.TestFollow@741b3bc3]" name="beforeFollowStatus" duration-ms="9983" started-at="2020-09-30T13:56:35Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:56:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFollowStatus -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:56:45Z" finished-at="2020-09-30T13:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:56:45Z" finished-at="2020-09-30T13:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="follow(java.lang.String, java.lang.String)[pri:1, instance:testcases.TestFollow@741b3bc3]" name="follow" duration-ms="6100" started-at="2020-09-30T13:56:45Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:56:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- follow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:56:52Z" finished-at="2020-09-30T13:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="2" started-at="2020-09-30T13:56:52Z" finished-at="2020-09-30T13:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="follow(java.lang.String, java.lang.String)[pri:1, instance:testcases.TestFollow@741b3bc3]" name="follow" duration-ms="4476" started-at="2020-09-30T13:56:52Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:56:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- follow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="2" started-at="2020-09-30T13:56:56Z" finished-at="2020-09-30T13:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="169" started-at="2020-09-30T13:56:56Z" finished-at="2020-09-30T13:56:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="afterFollowStatus(java.lang.String, java.lang.String)[pri:2, instance:testcases.TestFollow@741b3bc3]" name="afterFollowStatus" duration-ms="6804" started-at="2020-09-30T13:56:56Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFollowStatus -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:03Z" finished-at="2020-09-30T13:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:03Z" finished-at="2020-09-30T13:57:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="afterFollowStatus(java.lang.String, java.lang.String)[pri:2, instance:testcases.TestFollow@741b3bc3]" name="afterFollowStatus" duration-ms="6313" started-at="2020-09-30T13:57:03Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFollowStatus -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:09Z" finished-at="2020-09-30T13:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="50" started-at="2020-09-30T13:57:09Z" finished-at="2020-09-30T13:57:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="alreadyFollow(java.lang.String, java.lang.String)[pri:3, instance:testcases.TestFollow@741b3bc3]" name="alreadyFollow" duration-ms="4081" started-at="2020-09-30T13:57:09Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyFollow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="2" started-at="2020-09-30T13:57:14Z" finished-at="2020-09-30T13:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="2" started-at="2020-09-30T13:57:14Z" finished-at="2020-09-30T13:57:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="alreadyFollow(java.lang.String, java.lang.String)[pri:3, instance:testcases.TestFollow@741b3bc3]" name="alreadyFollow" duration-ms="4015" started-at="2020-09-30T13:57:14Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyFollow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="0" started-at="2020-09-30T13:57:18Z" finished-at="2020-09-30T13:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:18Z" finished-at="2020-09-30T13:57:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="following(java.lang.String, java.lang.String)[pri:4, instance:testcases.TestFollow@741b3bc3]" name="following" duration-ms="4344" started-at="2020-09-30T13:57:18Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- following -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:22Z" finished-at="2020-09-30T13:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="2" started-at="2020-09-30T13:57:22Z" finished-at="2020-09-30T13:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="following(java.lang.String, java.lang.String)[pri:4, instance:testcases.TestFollow@741b3bc3]" name="following" duration-ms="4144" started-at="2020-09-30T13:57:22Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- following -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="2" started-at="2020-09-30T13:57:26Z" finished-at="2020-09-30T13:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:26Z" finished-at="2020-09-30T13:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="follower(java.lang.String, java.lang.String)[pri:5, instance:testcases.TestFollow@741b3bc3]" name="follower" duration-ms="4292" started-at="2020-09-30T13:57:26Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- follower -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:30Z" finished-at="2020-09-30T13:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:30Z" finished-at="2020-09-30T13:57:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="follower(java.lang.String, java.lang.String)[pri:5, instance:testcases.TestFollow@741b3bc3]" name="follower" duration-ms="4251" started-at="2020-09-30T13:57:30Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- follower -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:35Z" finished-at="2020-09-30T13:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:35Z" finished-at="2020-09-30T13:57:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followerTokenUser(java.lang.String, java.lang.String)[pri:5, instance:testcases.TestFollow@741b3bc3]" name="followerTokenUser" duration-ms="5714" started-at="2020-09-30T13:57:35Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followerTokenUser -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:40Z" finished-at="2020-09-30T13:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:40Z" finished-at="2020-09-30T13:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followerTokenUser(java.lang.String, java.lang.String)[pri:5, instance:testcases.TestFollow@741b3bc3]" name="followerTokenUser" duration-ms="5388" started-at="2020-09-30T13:57:40Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followerTokenUser -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:46Z" finished-at="2020-09-30T13:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:46Z" finished-at="2020-09-30T13:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followerTokenVisitor(java.lang.String, java.lang.String)[pri:5, instance:testcases.TestFollow@741b3bc3]" name="followerTokenVisitor" duration-ms="4157" started-at="2020-09-30T13:57:46Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followerTokenVisitor -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="2" started-at="2020-09-30T13:57:50Z" finished-at="2020-09-30T13:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:50Z" finished-at="2020-09-30T13:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followerTokenVisitor(java.lang.String, java.lang.String)[pri:5, instance:testcases.TestFollow@741b3bc3]" name="followerTokenVisitor" duration-ms="4567" started-at="2020-09-30T13:57:50Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followerTokenVisitor -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="2" started-at="2020-09-30T13:57:55Z" finished-at="2020-09-30T13:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:55Z" finished-at="2020-09-30T13:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Unfollow(java.lang.String, java.lang.String)[pri:6, instance:testcases.TestFollow@741b3bc3]" name="Unfollow" duration-ms="3883" started-at="2020-09-30T13:57:55Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:57:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unfollow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:58Z" finished-at="2020-09-30T13:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:57:58Z" finished-at="2020-09-30T13:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Unfollow(java.lang.String, java.lang.String)[pri:6, instance:testcases.TestFollow@741b3bc3]" name="Unfollow" duration-ms="3597" started-at="2020-09-30T13:57:58Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unfollow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:02Z" finished-at="2020-09-30T13:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="80" started-at="2020-09-30T13:58:02Z" finished-at="2020-09-30T13:58:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="alreadyUnfollow(java.lang.String, java.lang.String)[pri:7, instance:testcases.TestFollow@741b3bc3]" name="alreadyUnfollow" duration-ms="3469" started-at="2020-09-30T13:58:02Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyUnfollow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:06Z" finished-at="2020-09-30T13:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:06Z" finished-at="2020-09-30T13:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="alreadyUnfollow(java.lang.String, java.lang.String)[pri:7, instance:testcases.TestFollow@741b3bc3]" name="alreadyUnfollow" duration-ms="3983" started-at="2020-09-30T13:58:06Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyUnfollow -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="3" started-at="2020-09-30T13:58:10Z" finished-at="2020-09-30T13:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:10Z" finished-at="2020-09-30T13:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followSelf(java.lang.String, java.lang.String)[pri:8, instance:testcases.TestFollow@741b3bc3]" name="followSelf" duration-ms="3969" started-at="2020-09-30T13:58:10Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followSelf -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:14Z" finished-at="2020-09-30T13:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:14Z" finished-at="2020-09-30T13:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followSelf(java.lang.String, java.lang.String)[pri:8, instance:testcases.TestFollow@741b3bc3]" name="followSelf" duration-ms="3792" started-at="2020-09-30T13:58:14Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followSelf -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:17Z" finished-at="2020-09-30T13:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:17Z" finished-at="2020-09-30T13:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followWithoutToken(java.lang.String, java.lang.String)[pri:9, instance:testcases.TestFollow@741b3bc3]" name="followWithoutToken" duration-ms="2193" started-at="2020-09-30T13:58:17Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followWithoutToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:20Z" finished-at="2020-09-30T13:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:20Z" finished-at="2020-09-30T13:58:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followWithoutToken(java.lang.String, java.lang.String)[pri:9, instance:testcases.TestFollow@741b3bc3]" name="followWithoutToken" duration-ms="1736" started-at="2020-09-30T13:58:20Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followWithoutToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:21Z" finished-at="2020-09-30T13:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:21Z" finished-at="2020-09-30T13:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followWithVisitorToken(java.lang.String, java.lang.String)[pri:10, instance:testcases.TestFollow@741b3bc3]" name="followWithVisitorToken" duration-ms="2606" started-at="2020-09-30T13:58:21Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followWithVisitorToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:24Z" finished-at="2020-09-30T13:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:24Z" finished-at="2020-09-30T13:58:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="followWithVisitorToken(java.lang.String, java.lang.String)[pri:10, instance:testcases.TestFollow@741b3bc3]" name="followWithVisitorToken" duration-ms="2228" started-at="2020-09-30T13:58:24Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- followWithVisitorToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:26Z" finished-at="2020-09-30T13:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:26Z" finished-at="2020-09-30T13:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="unfollowWithoutToken(java.lang.String, java.lang.String)[pri:11, instance:testcases.TestFollow@741b3bc3]" name="unfollowWithoutToken" duration-ms="2100" started-at="2020-09-30T13:58:26Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unfollowWithoutToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:28Z" finished-at="2020-09-30T13:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:28Z" finished-at="2020-09-30T13:58:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="unfollowWithoutToken(java.lang.String, java.lang.String)[pri:11, instance:testcases.TestFollow@741b3bc3]" name="unfollowWithoutToken" duration-ms="2253" started-at="2020-09-30T13:58:28Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unfollowWithoutToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="33" started-at="2020-09-30T13:58:31Z" finished-at="2020-09-30T13:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:31Z" finished-at="2020-09-30T13:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="unfollowWithVisitorToken(java.lang.String, java.lang.String)[pri:12, instance:testcases.TestFollow@741b3bc3]" name="unfollowWithVisitorToken" duration-ms="2756" started-at="2020-09-30T13:58:31Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[paijo@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unfollowWithVisitorToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:34Z" finished-at="2020-09-30T13:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="set()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="set" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:34Z" finished-at="2020-09-30T13:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="unfollowWithVisitorToken(java.lang.String, java.lang.String)[pri:12, instance:testcases.TestFollow@741b3bc3]" name="unfollowWithVisitorToken" duration-ms="2401" started-at="2020-09-30T13:58:34Z" data-provider="TargetUserFollowUnfollow" finished-at="2020-09-30T13:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6282278843303]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dikakoko]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unfollowWithVisitorToken -->
+        <test-method status="PASS" signature="down()[pri:0, instance:testcases.TestFollow@741b3bc3]" name="down" is-config="true" duration-ms="1" started-at="2020-09-30T13:58:36Z" finished-at="2020-09-30T13:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- testcases.TestFollow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

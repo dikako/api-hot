@@ -163,8 +163,8 @@ public class TestFollow extends Base {
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
-	@Description("Get Follower Other User")
-	@Test(priority = 5, testName = "Get Follower", dataProvider = "TargetUserFollowUnfollow")
+	@Description("Get Follower Other User With Token Login User")
+	@Test(priority = 5, testName = "Get Follower Other User With Token Login User", dataProvider = "TargetUserFollowUnfollow")
 	public void followerTokenUser(String username, String password) {
 		Token token = new Token();
 		BaseUrl baseUrl = new BaseUrl();
@@ -172,7 +172,7 @@ public class TestFollow extends Base {
 
 		String id = token.id(username, password, "1234", "android");
 
-		rs.baseUri(baseUrl.urlUgcVote("/v1/user/followers"))
+		rs.baseUri(baseUrl.urlUgcVote("/v1/user/user-followers"))
 				.headers("Authorization", token.login("dikakoko04@gmail.com", "dikakoko", "1234", "android"))
 				.param("user_id", id).log().all().when().get().then().log().all().statusCode(200);
 
@@ -182,8 +182,8 @@ public class TestFollow extends Base {
 	}
 
 	@Severity(SeverityLevel.CRITICAL)
-	@Description("Get Follower Other User")
-	@Test(priority = 5, testName = "Get Follower", dataProvider = "TargetUserFollowUnfollow")
+	@Description("Get Follower Other User with Visitor Token")
+	@Test(priority = 5, testName = "Get Follower Other User with Visitor Token", dataProvider = "TargetUserFollowUnfollow")
 	public void followerTokenVisitor(String username, String password) {
 		Token token = new Token();
 		BaseUrl baseUrl = new BaseUrl();
@@ -191,7 +191,7 @@ public class TestFollow extends Base {
 
 		String id = token.id(username, password, "1234", "android");
 
-		rs.baseUri(baseUrl.urlUgcVote("/v1/user/followers")).headers("Authorization", token.visitor())
+		rs.baseUri(baseUrl.urlUgcVote("/v1/user/user-followers")).headers("Authorization", token.visitor())
 				.param("user_id", id).log().all().when().get().then().log().all().statusCode(200);
 
 		String idTokenUsr = token.id("dikakoko04@gmail.com", "dikakoko", "1234", "android");

@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\fransiskus.setiawan\AppData\Local\Temp\testng-eclipse--1672957235\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="Unfollow(paijo@mailinator.com, dikakoko)">Unfollow(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="Unfollow(6282278843303, dikakoko)">Unfollow(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="afterFollowStatus(paijo@mailinator.com, dikakoko)">afterFollowStatus(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="afterFollowStatus(6282278843303, dikakoko)">afterFollowStatus(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="alreadyFollow(paijo@mailinator.com, dikakoko)">alreadyFollow(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="alreadyFollow(6282278843303, dikakoko)">alreadyFollow(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="alreadyUnfollow(6282278843303, dikakoko)">alreadyUnfollow(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="alreadyUnfollow(paijo@mailinator.com, dikakoko)">alreadyUnfollow(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="beforeFollowStatus(paijo@mailinator.com, dikakoko)">beforeFollowStatus(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="beforeFollowStatus(6282278843303, dikakoko)">beforeFollowStatus(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="follow(6282278843303, dikakoko)">follow(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="follow(paijo@mailinator.com, dikakoko)">follow(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followSelf(paijo@mailinator.com, dikakoko)">followSelf(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followSelf(6282278843303, dikakoko)">followSelf(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followWithVisitorToken(6282278843303, dikakoko)">followWithVisitorToken(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followWithVisitorToken(paijo@mailinator.com, dikakoko)">followWithVisitorToken(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followWithoutToken(paijo@mailinator.com, dikakoko)">followWithoutToken(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followWithoutToken(6282278843303, dikakoko)">followWithoutToken(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="follower(paijo@mailinator.com, dikakoko)">follower(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="follower(6282278843303, dikakoko)">follower(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followerTokenUser(paijo@mailinator.com, dikakoko)">followerTokenUser(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followerTokenUser(6282278843303, dikakoko)">followerTokenUser(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followerTokenVisitor(paijo@mailinator.com, dikakoko)">followerTokenVisitor(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="followerTokenVisitor(6282278843303, dikakoko)">followerTokenVisitor(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="following(6282278843303, dikakoko)">following(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="following(paijo@mailinator.com, dikakoko)">following(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="unfollowWithVisitorToken(paijo@mailinator.com, dikakoko)">unfollowWithVisitorToken(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="unfollowWithVisitorToken(6282278843303, dikakoko)">unfollowWithVisitorToken(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="unfollowWithoutToken(paijo@mailinator.com, dikakoko)">unfollowWithoutToken(paijo@mailinator.com, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testcases.TestFollow" hash-for-method="unfollowWithoutToken(6282278843303, dikakoko)">unfollowWithoutToken(6282278843303, dikakoko)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TestFollow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Unfollow(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- Unfollow(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">Unfollow</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Unfollow(6282278843303, dikakoko)">
+                  </a> <!-- Unfollow(6282278843303, dikakoko) -->
+                  <span class="method-name">Unfollow</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="afterFollowStatus(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- afterFollowStatus(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">afterFollowStatus</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="afterFollowStatus(6282278843303, dikakoko)">
+                  </a> <!-- afterFollowStatus(6282278843303, dikakoko) -->
+                  <span class="method-name">afterFollowStatus</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadyFollow(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- alreadyFollow(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">alreadyFollow</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadyFollow(6282278843303, dikakoko)">
+                  </a> <!-- alreadyFollow(6282278843303, dikakoko) -->
+                  <span class="method-name">alreadyFollow</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadyUnfollow(6282278843303, dikakoko)">
+                  </a> <!-- alreadyUnfollow(6282278843303, dikakoko) -->
+                  <span class="method-name">alreadyUnfollow</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alreadyUnfollow(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- alreadyUnfollow(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">alreadyUnfollow</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeFollowStatus(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- beforeFollowStatus(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">beforeFollowStatus</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="beforeFollowStatus(6282278843303, dikakoko)">
+                  </a> <!-- beforeFollowStatus(6282278843303, dikakoko) -->
+                  <span class="method-name">beforeFollowStatus</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="follow(6282278843303, dikakoko)">
+                  </a> <!-- follow(6282278843303, dikakoko) -->
+                  <span class="method-name">follow</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="follow(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- follow(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">follow</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followSelf(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- followSelf(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">followSelf</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followSelf(6282278843303, dikakoko)">
+                  </a> <!-- followSelf(6282278843303, dikakoko) -->
+                  <span class="method-name">followSelf</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followWithVisitorToken(6282278843303, dikakoko)">
+                  </a> <!-- followWithVisitorToken(6282278843303, dikakoko) -->
+                  <span class="method-name">followWithVisitorToken</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followWithVisitorToken(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- followWithVisitorToken(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">followWithVisitorToken</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followWithoutToken(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- followWithoutToken(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">followWithoutToken</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followWithoutToken(6282278843303, dikakoko)">
+                  </a> <!-- followWithoutToken(6282278843303, dikakoko) -->
+                  <span class="method-name">followWithoutToken</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="follower(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- follower(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">follower</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="follower(6282278843303, dikakoko)">
+                  </a> <!-- follower(6282278843303, dikakoko) -->
+                  <span class="method-name">follower</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followerTokenUser(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- followerTokenUser(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">followerTokenUser</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followerTokenUser(6282278843303, dikakoko)">
+                  </a> <!-- followerTokenUser(6282278843303, dikakoko) -->
+                  <span class="method-name">followerTokenUser</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followerTokenVisitor(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- followerTokenVisitor(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">followerTokenVisitor</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="followerTokenVisitor(6282278843303, dikakoko)">
+                  </a> <!-- followerTokenVisitor(6282278843303, dikakoko) -->
+                  <span class="method-name">followerTokenVisitor</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="following(6282278843303, dikakoko)">
+                  </a> <!-- following(6282278843303, dikakoko) -->
+                  <span class="method-name">following</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="following(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- following(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">following</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unfollowWithVisitorToken(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- unfollowWithVisitorToken(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">unfollowWithVisitorToken</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unfollowWithVisitorToken(6282278843303, dikakoko)">
+                  </a> <!-- unfollowWithVisitorToken(6282278843303, dikakoko) -->
+                  <span class="method-name">unfollowWithVisitorToken</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unfollowWithoutToken(paijo@mailinator.com, dikakoko)">
+                  </a> <!-- unfollowWithoutToken(paijo@mailinator.com, dikakoko) -->
+                  <span class="method-name">unfollowWithoutToken</span>
+                  <span class="parameters">(paijo@mailinator.com, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unfollowWithoutToken(6282278843303, dikakoko)">
+                  </a> <!-- unfollowWithoutToken(6282278843303, dikakoko) -->
+                  <span class="method-name">unfollowWithoutToken</span>
+                  <span class="parameters">(6282278843303, dikakoko)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\fransiskus.setiawan\AppData\Local\Temp\testng-eclipse--1672957235\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TestFollow&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'beforeFollowStatus')
+data.setCell(0, 2, 'testcases.TestFollow')
+data.setCell(0, 3, 15327);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'beforeFollowStatus')
+data.setCell(1, 2, 'testcases.TestFollow')
+data.setCell(1, 3, 9983);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'afterFollowStatus')
+data.setCell(2, 2, 'testcases.TestFollow')
+data.setCell(2, 3, 6804);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'afterFollowStatus')
+data.setCell(3, 2, 'testcases.TestFollow')
+data.setCell(3, 3, 6313);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'follow')
+data.setCell(4, 2, 'testcases.TestFollow')
+data.setCell(4, 3, 6100);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'followerTokenUser')
+data.setCell(5, 2, 'testcases.TestFollow')
+data.setCell(5, 3, 5714);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'followerTokenUser')
+data.setCell(6, 2, 'testcases.TestFollow')
+data.setCell(6, 3, 5388);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'followerTokenVisitor')
+data.setCell(7, 2, 'testcases.TestFollow')
+data.setCell(7, 3, 4567);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'follow')
+data.setCell(8, 2, 'testcases.TestFollow')
+data.setCell(8, 3, 4476);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'following')
+data.setCell(9, 2, 'testcases.TestFollow')
+data.setCell(9, 3, 4344);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'follower')
+data.setCell(10, 2, 'testcases.TestFollow')
+data.setCell(10, 3, 4292);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'follower')
+data.setCell(11, 2, 'testcases.TestFollow')
+data.setCell(11, 3, 4251);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'followerTokenVisitor')
+data.setCell(12, 2, 'testcases.TestFollow')
+data.setCell(12, 3, 4157);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'following')
+data.setCell(13, 2, 'testcases.TestFollow')
+data.setCell(13, 3, 4144);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'alreadyFollow')
+data.setCell(14, 2, 'testcases.TestFollow')
+data.setCell(14, 3, 4081);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'alreadyFollow')
+data.setCell(15, 2, 'testcases.TestFollow')
+data.setCell(15, 3, 4015);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'alreadyUnfollow')
+data.setCell(16, 2, 'testcases.TestFollow')
+data.setCell(16, 3, 3983);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'followSelf')
+data.setCell(17, 2, 'testcases.TestFollow')
+data.setCell(17, 3, 3969);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Unfollow')
+data.setCell(18, 2, 'testcases.TestFollow')
+data.setCell(18, 3, 3883);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'followSelf')
+data.setCell(19, 2, 'testcases.TestFollow')
+data.setCell(19, 3, 3792);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Unfollow')
+data.setCell(20, 2, 'testcases.TestFollow')
+data.setCell(20, 3, 3597);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'alreadyUnfollow')
+data.setCell(21, 2, 'testcases.TestFollow')
+data.setCell(21, 3, 3469);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'unfollowWithVisitorToken')
+data.setCell(22, 2, 'testcases.TestFollow')
+data.setCell(22, 3, 2756);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'followWithVisitorToken')
+data.setCell(23, 2, 'testcases.TestFollow')
+data.setCell(23, 3, 2606);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'unfollowWithVisitorToken')
+data.setCell(24, 2, 'testcases.TestFollow')
+data.setCell(24, 3, 2401);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'unfollowWithoutToken')
+data.setCell(25, 2, 'testcases.TestFollow')
+data.setCell(25, 3, 2253);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'followWithVisitorToken')
+data.setCell(26, 2, 'testcases.TestFollow')
+data.setCell(26, 3, 2228);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'followWithoutToken')
+data.setCell(27, 2, 'testcases.TestFollow')
+data.setCell(27, 3, 2193);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'unfollowWithoutToken')
+data.setCell(28, 2, 'testcases.TestFollow')
+data.setCell(28, 3, 2100);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'followWithoutToken')
+data.setCell(29, 2, 'testcases.TestFollow')
+data.setCell(29, 3, 1736);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TestFollow</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">beforeFollowStatus(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">16113 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">16116 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">beforeFollowStatus(6282278843303, dikakoko)</span>
+                <span class="method-start">16117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">26102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">26145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">follow(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">26146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">32248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">32249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">follow(6282278843303, dikakoko)</span>
+                <span class="method-start">32251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">36728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">36767 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">afterFollowStatus(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">36936 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">43742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">43743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">afterFollowStatus(6282278843303, dikakoko)</span>
+                <span class="method-start">43744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">50058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">50085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alreadyFollow(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">50135 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">54218 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">54220 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alreadyFollow(6282278843303, dikakoko)</span>
+                <span class="method-start">54222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">58239 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">58261 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">following(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">58262 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">62608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">62609 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">following(6282278843303, dikakoko)</span>
+                <span class="method-start">62611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">66757 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">66791 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">follower(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">66792 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">71086 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">71087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">follower(6282278843303, dikakoko)</span>
+                <span class="method-start">71088 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">75340 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">75368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followerTokenUser(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">75369 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">81084 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">81085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followerTokenUser(6282278843303, dikakoko)</span>
+                <span class="method-start">81086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">86476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">86507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followerTokenVisitor(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">86508 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">90667 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">90669 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followerTokenVisitor(6282278843303, dikakoko)</span>
+                <span class="method-start">90670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">95238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">95259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Unfollow(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">95260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">99144 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">99146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Unfollow(6282278843303, dikakoko)</span>
+                <span class="method-start">99147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">102745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">102768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alreadyUnfollow(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">102848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">106319 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">106320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alreadyUnfollow(6282278843303, dikakoko)</span>
+                <span class="method-start">106321 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">110305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">110336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followSelf(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">110337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">114307 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">114308 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followSelf(6282278843303, dikakoko)</span>
+                <span class="method-start">114309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">118102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">118130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followWithoutToken(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">118131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">120325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">120326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followWithoutToken(6282278843303, dikakoko)</span>
+                <span class="method-start">120327 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">122064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">122083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followWithVisitorToken(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">122084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">124692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">124693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">followWithVisitorToken(6282278843303, dikakoko)</span>
+                <span class="method-start">124694 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">126923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">126945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unfollowWithoutToken(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">126946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">129047 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">129048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unfollowWithoutToken(6282278843303, dikakoko)</span>
+                <span class="method-start">129049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">131361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">131408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unfollowWithVisitorToken(paijo@mailinator.com, dikakoko)</span>
+                <span class="method-start">131409 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">134167 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">set</span>
+                <span class="method-start">134168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">unfollowWithVisitorToken(6282278843303, dikakoko)</span>
+                <span class="method-start">134169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">down</span>
+                <span class="method-start">136571 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
