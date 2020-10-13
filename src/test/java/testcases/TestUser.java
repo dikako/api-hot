@@ -25,7 +25,7 @@ public class TestUser extends Base {
 
 	@Severity(SeverityLevel.CRITICAL)
 	@Description("Get My Profile")
-	@Test(priority = 0, testName = "Get My Profile", dataProvider = "User")
+	@Test(priority = 0, testName = "Get My Profiles", dataProvider = "User")
 	public void myProfile(String username, String password) {
 		Token token = new Token();
 		BaseUrl baseUrl = new BaseUrl();
